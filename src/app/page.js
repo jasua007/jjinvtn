@@ -21,7 +21,7 @@ export default function Home() {
             
           </li>
           <li className="tracking-[-.01em]">
-            Costumize Your Invitation or Event online
+            Costumize Your Invitation or Event online Now
           </li>
         </ol>
 
