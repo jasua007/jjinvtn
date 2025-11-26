@@ -24,6 +24,7 @@ export default function Navbar() {
           </svg>
           {/* ☰ */}
         </button>
+        
       
         {/* <button type="button" command="--toggle" commandfor="mobile-menu" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-2 focus:-outline-offset-1 focus:outline-indigo-500">
           <span class="absolute -inset-0.5"></span>
@@ -38,15 +39,15 @@ export default function Navbar() {
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div class="flex shrink-0 items-center">
-          <img src="/jeje.png" alt="Your Company" class="h-8 w-auto" />
+          <img src="/jeje2.png" alt="Your Company" class="h-8 w-auto" />
         </div>
         <div class="hidden sm:ml-6 sm:block">
+          
           <div class="flex space-x-4">
        
-            <a href="#" aria-current="page" class="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white">Dashboard</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Team</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Projects</a>
-            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Calendar</a>
+            <a href="#" aria-current="page" class="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white">HOME</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">About</a>
+            <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Catalog</a>
           </div>
         </div>
       </div>
@@ -76,6 +77,7 @@ export default function Navbar() {
           </el-menu>
         </el-dropdown>
       </div>
+      
     </div>
   </div>
 
@@ -89,16 +91,16 @@ export default function Navbar() {
     </div>
   </el-disclosure> */}
 
-     
-
-      {/* Mobile Menu */}
+           {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-white px-6 pb-4 flex flex-col gap-3 ">
+        <div className="md:hidden bg-background px-6 pb-4 flex flex-col gap-3 ">
           <Link href="/" aria-current="page" class="block rounded-md bg-gray-950/50 px-3 py-2 text-base font-medium text-white">Home</Link>
           <Link href="" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">About</Link>
           <Link href="/catalog" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Catalog</Link>
         </div>
       )}
+
+
 </nav>
   );
 }
