@@ -20,12 +20,25 @@
   }
 }
 
-body {
-  background-image: url('/bgfade.png');
+body {  
+  /* border-left: url('/flower1.png');  
+  border-right: url('/flower2.png'); */
+  
+  background-image: url('/bgfade.png');  
+
+border-left-width: 1cm;
+border-right-width: 1cm;
+border-color: #031c26;
+border-image: url('/flower1.png');
+border-image-width: 5cm;
+border-image-source: -moz-element()
+-o-border-imag;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+
+  
 }
